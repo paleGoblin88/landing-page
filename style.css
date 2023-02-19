@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif, trebuchet;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #1f2937;
+  color: white;
+  height: 60px;
+}
+
+.container {
+  padding: 0 100px;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+ul li {
+  list-style: none;
+  font-weight: bold;
+}
+
+li a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+header {
+  padding-bottom: 50px;
+  background-color: #1f2937;
+  color: white;
+  height: fit-content;
+}
+
+header .container {
+  display: flex;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero h2 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  border: 0;
+  background-color: #3882f6;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+button a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+img {
+  margin: 30px;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.features h1 {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
