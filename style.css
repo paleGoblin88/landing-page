@@ -12,8 +12,8 @@ body {
 }
 
 nav {
-  background-color: #1f2937;
-  color: white;
+  background-color: orange;
+  color: #f9faf8;
   height: 60px;
 }
 
@@ -29,9 +29,9 @@ nav .container {
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 24px;
-  color: #f9faf8;
+  font-weight: bolder;
+  font-size: x-large;
+  color: #1f2937;
 }
 
 ul {
@@ -46,7 +46,7 @@ ul li {
 
 li a {
   text-decoration: none;
-  color: #e5e7eb;
+  color: #1f2937;
 }
 
 header {
@@ -58,6 +58,8 @@ header {
 
 header .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero h1 {
@@ -79,6 +81,14 @@ button {
   margin: 10px;
 }
 
+.log-in {
+  background-color: orange;
+}
+
+.log-in a {
+  color: #1f2937;
+}
+
 button a {
   color: #e5e7eb;
   text-decoration: none;
@@ -88,6 +98,7 @@ button a {
 img {
   margin: 30px;
   max-width: 400px;
+  max-height: 400px;
   border-radius: 10px;
 }
 
