@@ -209,5 +209,10 @@ footer .container {
 
   nav .container {
     flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  nav {
+    height: 120px;
   }
 }
